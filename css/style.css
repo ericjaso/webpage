@@ -58,6 +58,13 @@ a {
   left: 0;
   width: 100%;
   transform: translate3d(0, -50%, 0);
+
+  @media (min-width: 500px) {
+    border: 10px solid red;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 .pagetitle {
