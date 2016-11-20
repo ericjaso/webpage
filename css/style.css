@@ -58,13 +58,21 @@ a {
   left: 0;
   width: 100%;
   transform: translate3d(0, -50%, 0);
+}
 
-  @media (min-width: 500px) {
-    border: 10px solid red;
-    position: relative;
-    width: 50%;
-    margin: 0 auto;
+/* mobile size*/
+@media (max-width: 24em) {
+  .hero {
+    display: none;
   }
+}
+/* between mobile and tablet size*/
+@media (min-width: 24em) and (max-width: 46.8em){
+  /* tablet screen size here*/
+}
+/*media query for styling anything above desktop*/
+@media (min-width: 46.9em) {
+  /*desktop styles here*/
 }
 
 .pagetitle {
