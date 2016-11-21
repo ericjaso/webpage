@@ -15,6 +15,16 @@ body {
   margin: 0;
 }
 
+/*testing hero*/
+.hero {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto 15px;
+    border-radius: 0%;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
+
 img {
   width: 100%;
 }
@@ -63,9 +73,7 @@ a {
 /* mobile size*/
 @media (max-width: 24em) {
   .hero {
-    display: none;
-  }
-}
+  
 /* between mobile and tablet size*/
 @media (min-width: 24em) and (max-width: 46.8em){
   /* tablet screen size here*/
@@ -73,6 +81,15 @@ a {
 /*media query for styling anything above desktop*/
 @media (min-width: 46.9em) {
   /*desktop styles here*/
+}
+
+/*testing the before and after code snippets*/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 .pagetitle {
