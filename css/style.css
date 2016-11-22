@@ -13,7 +13,6 @@ body {
   height: 100%;
   position: relative;
   margin: 0;
-  overflow-y: hidden;
 }
 
 img {
@@ -40,6 +39,7 @@ a {
   bottom: 5%;
   left: 50%;
   transform: translate3d(-50%, 0, 0);
+
 }
 
 .dib {
@@ -57,21 +57,13 @@ a {
   width: 100%;
 }
 
-/* mobile size*/
-@media (max-width: 24em) {
-  body {
-    overflow-y: scroll;
-  }
-}
-/* between mobile and tablet size*/
-@media (min-width: 24em) and (max-width: 46.8em){
-  /* tablet screen size here */
-}
-/*media query for styling anything above desktop*/
-@media (min-width: 46.9em) {
-  /*desktop styles here*/
-}
-
 .pagetitle {
   font-size: 60px;
+}
+
+/* desktop sizes here*/
+@media (min-width: 24em) {
+  .footer {
+    position: relative;
+  }
 }
